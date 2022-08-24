@@ -1,4 +1,4 @@
-println("Exemplo 1")
+
 
 f(x)= x^3 - 9*x + 3
 
@@ -28,7 +28,7 @@ println(r)
 
 println("================================================================================")
 
-println("Exercicio 1")
+#exercicio 3.2.1
 
 f(x)= sqrt(x) - cos(x)
 
@@ -51,7 +51,7 @@ end
   println(r)
 println("================================================================================")
 
-println("Exercicio 2")
+#exercicio3.2.2
 
 f(x)= 5sin(x^2) - MathConstants.e^(x/10)
 
@@ -73,3 +73,12 @@ end
   r = bisection(0,1)
   println(r)
 println("================================================================================")
+
+#exercicio 3.2.8
+
+ir = 10^-12
+T = 300
+k = 1.380649*(10^-23)
+q = 1.60217663*(10^-19)
+I(x) = Ir*(MathConstants.e^((x*q)/(k*T))-1)
+g(x,V,R) = R*I(x) + x - v
